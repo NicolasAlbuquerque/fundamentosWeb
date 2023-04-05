@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+
+}
+
+
+.navbar a{
+    
+    text-decoration: none;
+    text-size-adjust: 25px;
+    color: #F2F2F2;
+    
+}
+
+.navbar a :hover{
+    
+    color: #248EA6;
+    
+}
+
+h1{
+    margin: 12px;
+
+}
+.banner{
+    display: flex;
+    align-items: center;
+    background-color: #248EA6;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+
+}
+.banner p{
+    width: 75%;
+    margin: 0 auto;
+    
+
+}
+img{
+    width: 25%;
+    border-radius: 50%;
+
+}
+.vedeo{
+    width: 50%;
+    aspect-ratio: 16/9;
+    margin:0 auto;
+    display: block;
+    margin-bottom: 12px;
+
+}
+header{
+    padding: 10px;
+    background-color: #144659;
+
+}
+
+.sobre{
+    text-align:left;
+    margin-left: 20%;
+}
+
+.gogu{
+    background-color:  #05080D;
+    height:200px
+}
+
+body{
+    background-color: #C4EAF2;
+}
+
+
+.forms{
+    display:grid;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    
+    
+}
+.mapa{
+    width: 50%;
+    aspect-ratio: 16/9;
+    margin:0 auto;
+    display: block;
+    margin-bottom: 12px;
+}
+.banner2{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+
+}
+
+.cont{
+    display:flex;
+    justify-content:space-around;;
+    gap: 30px;
+}
