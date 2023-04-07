@@ -74,9 +74,14 @@ header{
 }
 
 .gogu{
-    background-color:  #05080D;
-    height:200px
+    background-color:  #144659;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
 
 body{
     background-color: #C4EAF2;
@@ -88,6 +93,8 @@ body{
     align-items: center;
     width: 75%;
     margin: 0 auto;
+    padding: 2%;
+    background-color: #248EA6;
     
     
 }
@@ -97,10 +104,11 @@ body{
     margin:0 auto;
     display: block;
     margin-bottom: 12px;
+    align-items:center;
 }
 .banner2{
     display: flex;
-    align-items: start;
+    align-items: center;
     gap: 10px;
     width: 75%;
     margin: 0 auto;
@@ -111,6 +119,21 @@ body{
 
 .cont{
     display:flex;
-    justify-content:space-around;;
+    justify-content:space-around;
     gap: 30px;
 }
+
+.container{}
+
+.container img{
+    height: 7%;
+    width: 7%;
+
+
+
+    gap: 30%;
+
+
+    
+}
+

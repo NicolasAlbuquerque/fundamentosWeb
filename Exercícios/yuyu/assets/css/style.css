@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    height: 3rem;
+}
+
+.logo a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.logo a:hover{
+    color: red;   
+}
+.logo ul{
+    display: flex;
+    gap: 3%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo li{
+    display: flex;
+}
+
+
+.logo{
+    align-items: end;
+    background-color: #5866BE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgs{
+width: 40%;
+}
+.banner{
+    width: 75%;
+    margin: 0 auto;
+    display: flex ;
+    align-items: center;
+    
+}
+.banner h2{
+    color: #5866BE;
+    size: 20px;
+}
+
+
+#textoInicial{
+    margin-left: 6%;
+}
+
+
+.video{
+    width: 50%;
+    aspect-ratio: 16/9;
+    margin:0 auto;
+    display: block;
+    margin-bottom: 10%;
+}
+#home{
+    margin: 4%;
+}
+
+.rodape{
+    background-color:#5866BE ;
+    height: 5em;
+}
