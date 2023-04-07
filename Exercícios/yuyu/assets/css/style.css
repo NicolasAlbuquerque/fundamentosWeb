@@ -28,7 +28,7 @@
 
 .logo{
     align-items: end;
-    background-color: #5866BE;
+    background-color: #5A56BF;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -40,10 +40,15 @@ width: 40%;
     margin: 0 auto;
     display: flex ;
     align-items: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(0, 0, 0);
     
 }
 .banner h2{
-    color: #5866BE;
+    color:#326DF0;
+    text-align: center;
+    font-size: 200%;
 }
 
 
@@ -64,6 +69,31 @@ width: 40%;
 }
 
 .rodape{
-    background-color:#5866BE ;
+    background-color:#326DF0 ;
     height: 5em;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-color: #a1c7e74f;
+}
+
+.bannerRiei{
+    width: 75%;
+    margin: 0 auto;
+    display: flex ;
+    align-items: flex-start;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+.bannerRiei h2{
+    color:#326DF0;
+    text-align: center;
+    font-size: 200%;
 }
