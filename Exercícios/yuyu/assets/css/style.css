@@ -13,7 +13,8 @@
 
 }
 .logo a:hover{
-    color: red;   
+    color: rgb(255, 108, 108);
+    
 }
 .logo ul{
     display: flex;
@@ -35,6 +36,7 @@
 .imgs{
 width: 40%;
 }
+
 .banner{
     width: 75%;
     margin: 0 auto;
@@ -64,6 +66,8 @@ width: 40%;
     display: block;
     margin-bottom: 10%;
 }
+
+
 #home{
     margin: 4%;
 }
@@ -75,6 +79,7 @@ width: 40%;
     justify-content: center;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
@@ -96,4 +101,71 @@ body{
     color:#326DF0;
     text-align: center;
     font-size: 200%;
+}
+
+form{
+    display: inline-table;
+    background-color: #5085f8;
+    border-radius: 4px;
+    align-content: space-around;
+    padding: 10%;
+    color: #c1eff8;
+    border-top:1%;
+    align-self: center;   
+}
+.bordas{
+    border-radius: 0.3rem;
+
+}
+
+form button{
+    color:#5085f8;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 3%;
+    border-color: #326DF0;
+    display: block;
+    margin: 0 auto;
+}
+
+.center{
+    align-items: center;
+}
+
+#botam{
+    margin-top: 10px;
+    width: 45%;
+    margin-left: 15%;
+}
+
+.bannerBotam{
+    width: 75%;
+    margin: 0 auto;
+    display: flex ;
+    align-items: start;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.local{
+    display: block;
+    margin: 0 auto; 
+    aspect-ratio: 26/9;
+
+}
+
+.espacinho{
+    margin-bottom: 1px;
+}
+
+
+.end h2{
+    color:#326DF0;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
