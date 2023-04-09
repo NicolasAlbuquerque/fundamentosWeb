@@ -169,3 +169,15 @@ form button{
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Russo One', sans-serif;
 }
+
+.bannerFinal{
+
+    width: 15%;
+
+    display: flex ;
+}
+#todos{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 15%;
+}
